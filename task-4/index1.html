@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Script Example</title>
+    <script>
+        window.onload = function() {
+            alert("Page has loaded!");
+        };
+        function changeContent() {
+    document.getElementById('heading').textContent = "Content Changed!";
+}
+
+    </script>
+</head>
+<body>
+    <h1>Internal JavaScript Example</h1>
+    <h1 id="heading">Hello, World!</h1>
+    <button onclick="changeContent()">Change Content</button>
+    <h1>Inline JavaScript Example</h1>
+    <button onclick="alert('Button was clicked!')">Click Me</button>
+</body>
+</html>
